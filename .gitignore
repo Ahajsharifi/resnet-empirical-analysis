@@ -1,0 +1,87 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PyTorch Models
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Dataset
+# =========================
+data/
+
+# =========================
+# Training Outputs
+# =========================
+outputs/checkpoints/
+outputs/logs/
+outputs/tensorboard/
+
+# =========================
+# TensorBoard
+# =========================
+runs/
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =========================
+# Reports (optional)
+# =========================
+reports/*.pdf__pycache__/
+*.pyc
+outputs/checkpoints/
+data/
+venv/
